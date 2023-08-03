@@ -1,23 +1,21 @@
 //
-//  plus.swift
+//  main.swift
 //  SwiftCodingTest
 //
-//  Created by getupmina on 2023/08/02.
+//  Created by getupmina on 2023/08/03.
 //
 
 import Foundation
-
-//출력
-//print("Hello World!")
-
-
-//입력 받고 출력
-//let a = Int(readLine()!)!
-//let b = Int(readLine()!)!
-//
-//print(a+b)
-
-//한번에 입력받고 출력
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+
+//plus
 print(input[0]+input[1])
+//minus
+print(input[0]-input[1])
+//multiply
+print(input[0]*input[1])
+//divide
+print(input[0]/input[1])
+//mod
+print(input[0]%input[1])
 
